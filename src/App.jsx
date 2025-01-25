@@ -1,9 +1,10 @@
+import Header from "./Header/Header"
 
 function App() {
 
   return (
     <>
-      <h2>Recipe Calories</h2>
+    <Header></Header>
     </>
   )
 }
