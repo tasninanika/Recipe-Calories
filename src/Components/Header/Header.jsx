@@ -1,3 +1,4 @@
+import profile from '../../assets/Frame.png'
 
 const Header = () => {
   return (
@@ -28,7 +29,7 @@ const Header = () => {
               <li><a>Search</a></li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Recipe Calories</a>
+          <a className="btn btn-ghost text-4xl text-[#150B2B] font-bold">Recipe Calories</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -45,7 +46,7 @@ const Header = () => {
               <div className="w-10 rounded-full">
                 <img
                   alt="Frame"
-                  src="../../assets/Frame.png" className="bg-[#0BE58A]"/>
+                  src={profile} className="bg-[#0BE58A]"/>
               </div>
             </div>
             <ul
