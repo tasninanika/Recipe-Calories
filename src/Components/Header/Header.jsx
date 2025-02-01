@@ -39,13 +39,13 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end gap-2">
-          <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+          <input type="text" placeholder="Search" className="input border-none w-24 rounded-4xl bg-[#150B2B0D] md:w-auto" />
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">
                 <img
-                  alt="Tailwind CSS Navbar component"
-                  src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                  alt="Frame"
+                  src="../../assets/Frame.png" className="bg-[#0BE58A]"/>
               </div>
             </div>
             <ul
