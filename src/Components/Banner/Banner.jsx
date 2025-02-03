@@ -9,13 +9,12 @@ const Banner = () => {
             style={{
                 backgroundImage:`url(${banner})`,
             }}>
-            <div className=" rounded-3xl"></div>
+            <div className="rounded-3xl"></div>
             <div className="hero-content text-neutral-content text-center">
-                <div className="max-w-md">
-                <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                <p className="mb-5">
-                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                    quasi. In deleniti eaque aut repudiandae et a id nisi.
+                <div className="">
+                <h1 className="w-[897px] h-[152px] mb-5 text-[58px] text-[#FFF] font-bold">Discover an exceptional cooking class tailored for you!</h1>
+                <p className=" w-[933px] h-[60px]mb-5">
+                Whether you're a beginner or an experienced chef, our cooking classes offer personalized instruction to suit your skills and interests. Learn how to prepare mouth-watering dishes with expert guidance in a fun, hands-on environment. Join us and discover the joy of cooking while enhancing your culinary skills!
                 </p>
                 <button className="btn btn-primary">Get Started</button>
                 </div>
