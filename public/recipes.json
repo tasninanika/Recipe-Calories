@@ -1,0 +1,116 @@
+[
+    {
+      "recipe_image": "https://example.com/images/spaghetti_bolognese.jpg",
+      "recipe_id": 1,
+      "recipe_name": "Spaghetti Bolognese",
+      "short_description": "Classic Italian pasta dish with savory meat sauce.",
+      "ingredients": [
+        "500 g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "400 g canned tomatoes",
+        "1 tbsp tomato paste",
+        "100 g spaghetti"
+      ],
+      "preparing_time": "30 min",
+      "calories": "600 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/chicken_caesar_salad.jpg",
+      "recipe_id": 2,
+      "recipe_name": "Chicken Caesar Salad",
+      "short_description": "A classic salad with grilled chicken, crispy croutons, and Caesar dressing.",
+      "ingredients": [
+        "500 g chicken breasts",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "200 g romaine lettuce",
+        "50 g parmesan cheese",
+        "50 g croutons"
+      ],
+      "preparing_time": "30 min",
+      "calories": "600 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/chicken_curry.jpg",
+      "recipe_id": 3,
+      "recipe_name": "Chicken Curry",
+      "short_description": "A spicy and flavorful chicken curry made with aromatic spices.",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g basil leaf",
+        "400 g mushrooms",
+        "1 onion",
+        "2 cloves garlic",
+        "1 tbsp curry powder"
+      ],
+      "preparing_time": "45 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/vegetable_stir_fry.jpg",
+      "recipe_id": 4,
+      "recipe_name": "Vegetable Stir Fry",
+      "short_description": "A quick and healthy stir fry with a variety of colorful vegetables.",
+      "ingredients": [
+        "200 g broccoli",
+        "150 g carrots",
+        "100 g bell peppers",
+        "1 onion",
+        "3 tbsp soy sauce",
+        "1 tbsp olive oil"
+      ],
+      "preparing_time": "20 min",
+      "calories": "180 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/vegetable_soup.jpg",
+      "recipe_id": 5,
+      "recipe_name": "Vegetable Soup",
+      "short_description": "A light and nutritious soup packed with seasonal vegetables.",
+      "ingredients": [
+        "1 potato",
+        "2 carrots",
+        "100 g peas",
+        "1 onion",
+        "500 ml vegetable broth",
+        "1 tbsp olive oil",
+        "Salt and pepper"
+      ],
+      "preparing_time": "35 min",
+      "calories": "150 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/grilled_chicken.jpg",
+      "recipe_id": 6,
+      "recipe_name": "Grilled Chicken",
+      "short_description": "Juicy and tender chicken grilled to perfection.",
+      "ingredients": [
+        "500 g chicken breasts",
+        "2 tbsp olive oil",
+        "1 tsp paprika",
+        "1 tbsp lemon juice",
+        "Salt and pepper"
+      ],
+      "preparing_time": "25 min",
+      "calories": "290 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/fruit_salad.jpg",
+      "recipe_id": 7,
+      "recipe_name": "Fruit Salad",
+      "short_description": "A refreshing mix of fresh fruits, perfect for a light dessert.",
+      "ingredients": [
+        "1 apple",
+        "1 banana",
+        "200 g strawberries",
+        "1 orange",
+        "50 g grapes",
+        "1 tbsp honey"
+      ],
+      "preparing_time": "15 min",
+      "calories": "120 calories"
+    }
+  ]
+  
