@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const Recipe = ({recipe}) => {
     console.log(recipe);
     return (
-        <div className='w-2/3'>
+        <div className=''>
             <div className="card bg-base-100 w-96 shadow-sm">
                 <figure className="px-10 pt-10">
                     <img
