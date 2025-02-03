@@ -3,13 +3,13 @@ import banner from '../../assets/Rectangle 1.jpg'
 
 const Banner = () => {
     return (
-        <div>
+        <div className='my-7 ml-5 mr-4'>
             <div
-            className="hero min-h-screen"
+            className="hero min-h-screen rounded-3xl"
             style={{
                 backgroundImage:`url(${banner})`,
             }}>
-            <div className="hero-overlay"></div>
+            <div className=" rounded-3xl"></div>
             <div className="hero-content text-neutral-content text-center">
                 <div className="max-w-md">
                 <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
