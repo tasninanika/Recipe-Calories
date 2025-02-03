@@ -11,7 +11,7 @@ const Recipe = ({recipe}) => {
 
     return (
         <div className=''>
-            <div className="w-full h-full rounded-xl border border-gray-300 bg-white">
+            <div className="w-96 h-full rounded-xl border border-gray-300 bg-white">
             <figure className="px-6 pt-6">
                 <img src={recipe_image} alt="food" className="rounded-2xl w-full" />
             </figure>

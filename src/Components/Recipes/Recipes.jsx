@@ -27,6 +27,7 @@ const Recipes = () => {
                     )
                 }
             </div>
+            
         </div>
     );
 };

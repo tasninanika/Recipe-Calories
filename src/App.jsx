@@ -1,6 +1,7 @@
 import Banner from "./Components/Banner/Banner"
 import Header from "./Components/Header/Header"
 import Recipes from "./Components/Recipes/Recipes"
+import Want_to_cook from "./Components/Want_to_cook/Want_to_cook"
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <>
     <Header></Header>
     <Banner></Banner>
-    <Recipes></Recipes>
+      <Recipes></Recipes>
+      <Want_to_cook></Want_to_cook>
     </>
   )
 }
