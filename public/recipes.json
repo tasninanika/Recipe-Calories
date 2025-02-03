@@ -1,6 +1,6 @@
 [
     {
-      "recipe_image": "https://example.com/images/spaghetti_bolognese.jpg",
+      "recipe_image": "https://i.ibb.co.com/pvkkfR2T/Rectangle-20170-1.jpg",
       "recipe_id": 1,
       "recipe_name": "Spaghetti Bolognese",
       "short_description": "Classic Italian pasta dish with savory meat sauce.",
@@ -16,7 +16,7 @@
       "calories": "600 calories"
     },
     {
-      "recipe_image": "https://example.com/images/chicken_caesar_salad.jpg",
+      "recipe_image": "https://i.ibb.co.com/TxbFbzmR/Rectangle-20170.jpg",
       "recipe_id": 2,
       "recipe_name": "Chicken Caesar Salad",
       "short_description": "A classic salad with grilled chicken, crispy croutons, and Caesar dressing.",

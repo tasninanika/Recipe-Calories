@@ -2,6 +2,9 @@ import PropTypes from 'prop-types';
 
 const Recipe = ({recipe}) => {
     console.log(recipe);
+
+    const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = recipe;
+
     return (
         <div className=''>
             <div className="card w-96 rounded-lg border-gray-300 border-1">
