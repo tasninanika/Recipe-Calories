@@ -1,4 +1,6 @@
 import PropTypes from 'prop-types';
+import { IoTimerOutline } from "react-icons/io5";
+
 
 const Recipe = ({recipe}) => {
     console.log(recipe);
@@ -18,11 +20,12 @@ const Recipe = ({recipe}) => {
                     <h2 className="card-title">{recipe_name}</h2>
                     <p className='border-b border-gray-200'>{short_description}</p>
                     <h4>Ingredients: {ingredients.length}</h4>
-                    <ul className="list-disc pl-5 text-gray-600">
+                    <ul className="list-disc pl-5 text-gray-600 border-gray-200 border-b">
                         {ingredients.map((ingredient, index) => (
                             <li key={index}>{ingredient}</li>
                         ))}
                     </ul>
+                    <p><IoTimerOutline />{preparing_time}                    </p>
                     <div className="card-actions">
                     <button className="btn btn-primary">Buy Now</button>
                     </div>
