@@ -12,11 +12,14 @@ const Banner = () => {
             <div className="rounded-3xl"></div>
             <div className="hero-content text-neutral-content text-center">
                 <div className="">
-                <h1 className="w-[897px] h-[152px] mb-5 text-[58px] text-[#FFF] font-bold">Discover an exceptional cooking class tailored for you!</h1>
-                <p className=" w-[933px] h-[60px]mb-5 text-lg text-[#FFF]">
-                Whether you're a beginner or an experienced chef, our cooking classes offer personalized instruction to suit your skills and interests. Learn how to prepare mouth-watering dishes with expert guidance in a fun, hands-on environment. Join us and discover the joy of cooking while enhancing your culinary skills!
+                <h1 className="w-[897px] h-[152px] mb-6 text-[58px] text-[#FFF] font-bold">Discover an exceptional cooking class tailored for you!</h1>
+                <p className=" w-[933px] h-[60px] mb-10 text-lg text-[#FFF]">
+                Whether you are a beginner or an experienced chef, our cooking classes offer personalized instruction to suit your skills and interests. Learn how to prepare mouth-watering dishes with expert guidance in a fun, hands-on environment. Join us and discover the joy of cooking while enhancing your culinary skills!
                 </p>
-                <button className="btn btn-primary">Get Started</button>
+                <div>
+                <button className="btn rounded-full text-black bg-[#0BE58A] border-none px-[30px] text-lg py-[25px]">Explore Now</button>
+                <button className="btn rounded-full text-black bg-[#0BE58A] border-none px-[30px] text-lg py-[25px]">Explore Now</button>
+                </div>
                 </div>
             </div>
             </div>
