@@ -4,7 +4,7 @@ const Recipe = ({recipe}) => {
     console.log(recipe);
     return (
         <div className=''>
-            <div className="card bg-base-100 w-96 shadow-sm">
+            <div className="card w-96 rounded-lg border-gray-300 border-1">
                 <figure className="px-10 pt-10">
                     <img
                     src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
