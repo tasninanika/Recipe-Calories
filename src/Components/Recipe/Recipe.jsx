@@ -10,8 +10,8 @@ const Recipe = ({recipe}) => {
             <div className="card w-96 rounded-lg border-gray-300 border-1">
                 <figure className="px-10 pt-10">
                     <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes"
+                    src={recipe_image}
+                    alt="food"
                     className="rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center">

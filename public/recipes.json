@@ -97,8 +97,28 @@
       "calories": "290 calories"
     },
     {
-      "recipe_image": "https://i.ibb.co.com/675vjmLg/front-view-tasty-fruit-salad-with-fresh-feijoas-tangerines-white-ripe-photo-mellow-fruity-tree.jpg",
+      "recipe_image": "https://i.ibb.co.com/7dKgTRXf/freshly-grilled-beef-taco-with-guacamole-cilantro-generated-by-ai.jpg",
       "recipe_id": 7,
+      "recipe_name": "Beef Tacos",
+      "short_description": "Delicious and juicy tacos filled with seasoned ground beef, topped with fresh veggies.",
+      "ingredients": [
+        "500 g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "1 tsp cumin",
+        "1 tsp chili powder",
+        "8 taco shells",
+        "50 g lettuce",
+        "50 g tomato, diced",
+        "50 g shredded cheese",
+        "1 tbsp sour cream"
+      ],
+      "preparing_time": "25 min",
+      "calories": "400 calories"
+    },    
+    {
+      "recipe_image": "https://i.ibb.co.com/675vjmLg/front-view-tasty-fruit-salad-with-fresh-feijoas-tangerines-white-ripe-photo-mellow-fruity-tree.jpg",
+      "recipe_id": 8,
       "recipe_name": "Fruit Salad",
       "short_description": "A refreshing mix of fresh fruits, perfect for a light dessert.",
       "ingredients": [
