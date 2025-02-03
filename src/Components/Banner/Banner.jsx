@@ -1,3 +1,5 @@
+import banner from '../../assets/Rectangle 1.jpg'
+
 
 const Banner = () => {
     return (
@@ -5,7 +7,7 @@ const Banner = () => {
             <div
             className="hero min-h-screen"
             style={{
-                backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+                backgroundImage:`url(${banner})`,
             }}>
             <div className="hero-overlay"></div>
             <div className="hero-content text-neutral-content text-center">
