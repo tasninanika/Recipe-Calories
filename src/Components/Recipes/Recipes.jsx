@@ -6,7 +6,11 @@ const Recipes = () => {
 
     const [recipes, setRecipes] = useState([]);
 
-    
+    useState(()=>{
+        fetch('recipes.json')
+        .then(res=> res.json())
+        .then(data=> setRecipes(data))
+    },[])
 
     return (
         <div className="mx-10 my-24">
