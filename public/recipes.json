@@ -32,7 +32,7 @@
       "calories": "600 calories"
     },
     {
-      "recipe_image": "https://example.com/images/chicken_curry.jpg",
+      "recipe_image": "https://i.ibb.co.com/vCpcyHKD/sambar-chicken-2.jpg",
       "recipe_id": 3,
       "recipe_name": "Chicken Curry",
       "short_description": "A spicy and flavorful chicken curry made with aromatic spices.",
@@ -49,7 +49,7 @@
       "calories": "320 calories"
     },
     {
-      "recipe_image": "https://example.com/images/vegetable_stir_fry.jpg",
+      "recipe_image": "https://i.ibb.co.com/Rp86dSH2/stir-fry-chicken-sweet-peppers-green-beans.jpg",
       "recipe_id": 4,
       "recipe_name": "Vegetable Stir Fry",
       "short_description": "A quick and healthy stir fry with a variety of colorful vegetables.",
@@ -65,7 +65,7 @@
       "calories": "180 calories"
     },
     {
-      "recipe_image": "https://example.com/images/vegetable_soup.jpg",
+      "recipe_image": "https://i.ibb.co.com/LzzVp4PY/top-view-delicious-autumn-soup-composition.jpg",
       "recipe_id": 5,
       "recipe_name": "Vegetable Soup",
       "short_description": "A light and nutritious soup packed with seasonal vegetables.",
@@ -82,7 +82,7 @@
       "calories": "150 calories"
     },
     {
-      "recipe_image": "https://example.com/images/grilled_chicken.jpg",
+      "recipe_image": "https://i.ibb.co.com/hRPDFhHk/closeup-shot-deliciously-prepared-chicken-served-with-onions-chili-sauce.jpg",
       "recipe_id": 6,
       "recipe_name": "Grilled Chicken",
       "short_description": "Juicy and tender chicken grilled to perfection.",
@@ -97,7 +97,7 @@
       "calories": "290 calories"
     },
     {
-      "recipe_image": "https://example.com/images/fruit_salad.jpg",
+      "recipe_image": "https://i.ibb.co.com/675vjmLg/front-view-tasty-fruit-salad-with-fresh-feijoas-tangerines-white-ripe-photo-mellow-fruity-tree.jpg",
       "recipe_id": 7,
       "recipe_name": "Fruit Salad",
       "short_description": "A refreshing mix of fresh fruits, perfect for a light dessert.",
