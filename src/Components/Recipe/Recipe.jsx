@@ -10,8 +10,8 @@ const Recipe = ({recipe}) => {
     const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = recipe;
 
     return (
-        <div className="grid grid-cols-2 gap-6">
-            <div className="w-96 flex flex-col h-full rounded-xl border border-gray-300 bg-white">
+        <div className="grid grid-cols-2">
+            <div className="w-96 flex flex-col rounded-xl border border-gray-300 bg-white ">
 
                 <figure className="px-6 pt-6">
                     <img src={recipe_image} alt="food" className="rounded-2xl w-full" />
