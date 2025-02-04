@@ -4,16 +4,17 @@ const Want_to_cook = ({wantToCook}) => {
         <div className="md:w-1/3 my-8">
             <div className="card rounded-xl border border-gray-300 bg-white text-primary-content w-full">
             <div className="card-body">
-                <h2 className="card-title text-black flex justify-center pb-3 text-3xl border-b border-gray-200 mb-4">Want to cook: {wantToCook.length}</h2>
+                <h2 className="card-title text-black flex justify-center pb-3 text-3xl border-b border-gray-200 mx-10">Want to cook: {wantToCook.length}</h2>
                 
-                <div className="grid grid-cols-4 text-gray-500 font-semibold pb-3 border-b border-gray-200 font-fira">
+                <div className="grid grid-cols-4 text-gray-500 font-semibold pb-3 font-fira">
                     <p>Name</p>
                     <p>Time</p>
                     <p>Calories</p>
                 </div>
+                </div>
                 
                 {wantToCook.map((recipe, index) => (
-                    <div key={index} className="grid grid-cols-4 text-gray-500 py-2 items-center gap-4 bg-gray-100">
+                    <div key={index} className="grid grid-cols-4 text-gray-500 py-2 items-center gap-4 bg-gray-100 px-4">
                         <p>
                               {recipe.recipe_name}
                         </p>
@@ -27,7 +28,7 @@ const Want_to_cook = ({wantToCook}) => {
                 ))}
             </div>
 
-                </div>
+               
         </div>
     );
 };
