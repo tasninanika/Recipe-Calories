@@ -14,7 +14,7 @@ const Recipes = () => {
 
     return (
         <div className="">
-            <div className="md:w-2/3 grid grid-cols-2 mt-14 gap-10">
+            <div className="md:w-2/3 grid grid-cols-2 my-14 gap-10">
                 {
                     recipes.map(recipe=>
                         <Recipe 
