@@ -6,12 +6,18 @@ const Want_to_cook = ({wantToCook}) => {
                 <div className="card-body">
                     <h2 className="card-title text-black flex justify-center pb-3 text-3xl border-b border-gray-200">Want to cook: {wantToCook.length}</h2>
                     <div className="grid grid-cols-3">
-                        <p className="text-gray-600 font-semibold">Name</p>
-                        <p className="text-gray-600 font-semibold">Time</p>
-                        <p className="text-gray-600 font-semibold">Calories</p>
+                        <p className="text-gray-500 font-semibold">Name</p>
+                        <p className="text-gray-500 font-semibold">Time</p>
+                        <p className="text-gray-500 font-semibold">Calories</p>
                     </div>
-                    <div className="card-actions justify-end">
-                    <button className="btn">Buy Now</button>
+                    <div className="">
+                        {wantToCook.map((recipe,index) => (
+                            <p className="text-gray-500 font-semibold" key={index}>{index+1}</p>
+                        ))}
+                        <p className="text-gray-500 font-semibold">Name</p>
+                        <p className="text-gray-500 font-semibold">Time</p>
+                        <p className="text-gray-500 font-semibold">Calories</p>
+                        <button className="btn">Buy Now</button>
                     </div>
                 </div>
                 </div>
