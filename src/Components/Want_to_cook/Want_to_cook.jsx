@@ -4,8 +4,12 @@ const Want_to_cook = ({wantToCook}) => {
         <div className="md:w-1/3 my-8">
             <div className="card rounded-xl border border-gray-300 bg-white text-primary-content w-full">
                 <div className="card-body">
-                    <h2 className="card-title text-black text-center items-center mx-auto text-3xl">Want to cook: {wantToCook.length}</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <h2 className="card-title text-black flex justify-center pb-3 text-3xl border-b border-gray-200">Want to cook: {wantToCook.length}</h2>
+                    <div className="grid grid-cols-3">
+                        <p className="text-gray-600 font-semibold">Name</p>
+                        <p className="text-gray-600 font-semibold">Time</p>
+                        <p className="text-gray-600 font-semibold">Calories</p>
+                    </div>
                     <div className="card-actions justify-end">
                     <button className="btn">Buy Now</button>
                     </div>
