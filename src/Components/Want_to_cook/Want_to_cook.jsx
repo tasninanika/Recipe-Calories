@@ -1,8 +1,8 @@
 
-const Want_to_cook = () => {
+const Want_to_cook = ({wantToCook}) => {
     return (
-        <div>
-            
+        <div className="md:w-1/3">
+            <h2>length: {wantToCook.length}</h2>
         </div>
     );
 };

@@ -10,9 +10,8 @@ function App() {
   const [wantToCook, setWantToCook] = useState([]);
 
   const handleWantToCook = recipe =>{
-    console.log("add");
-    console.log(recipe);
-    // const newWantToCook = 
+    const newWantToCook = [...wantToCook, recipe];
+    setWantToCook(newWantToCook);
   }
 
   return (
@@ -20,9 +19,9 @@ function App() {
     <Header></Header>
     <Banner></Banner>
     <Recipe_Header></Recipe_Header>
-    <main className="mx-5">
+    <main className="md:flex max-w-7xl mx-5">
     <Recipes handleWantToCook={handleWantToCook}></Recipes>
-    <Want_to_cook></Want_to_cook>
+    <Want_to_cook wantToCook={wantToCook}></Want_to_cook>
     </main>
     </>
   )
