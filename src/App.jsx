@@ -19,7 +19,7 @@ function App() {
     <Header></Header>
     <Banner></Banner>
     <Recipe_Header></Recipe_Header>
-    <main className="md:flex max-w-7xl mx-5">
+    <main className="md:flex max-w-7xl mx-auto gap-5">
     <Recipes handleWantToCook={handleWantToCook}></Recipes>
     <Want_to_cook wantToCook={wantToCook}></Want_to_cook>
     </main>

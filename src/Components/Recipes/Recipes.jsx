@@ -13,7 +13,7 @@ const Recipes = ({handleWantToCook}) => {
     },[])
 
     return (
-        <div className="bg-red-300 md:w-2/3">
+        <div className="md:w-2/3">
             <div className="grid grid-cols-2 gap-5 my-8">
                 {
                     recipes.map(recipe=>
