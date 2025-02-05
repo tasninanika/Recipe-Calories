@@ -4,7 +4,7 @@ import { TbFlame } from "react-icons/tb";
 
 
 
-const Recipe = ({recipe, handleWantToCook}) => {
+const Recipe = ({recipe, handleWantToCook, wantToCook}) => {
     console.log(recipe);
 
     const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = recipe;
@@ -37,7 +37,8 @@ const Recipe = ({recipe, handleWantToCook}) => {
                     </div>
 
                     <div className="card-actions mt-auto">
-                        <button className="btn rounded-full text-black bg-[#0BE58A] border-none px-[20px] text-lg py-[15px]" onClick={()=>handleWantToCook(recipe)}>Want to cook</button>
+                        <button className="btn rounded-full text-black bg-[#0BE58A] border-none px-[20px] text-lg py-[15px]" onClick={()=>handleWantToCook(recipe)} 
+                            >Want to cook</button>
                     </div>
                 </div>
             </div>
