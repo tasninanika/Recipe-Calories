@@ -10,10 +10,13 @@ function App() {
   const [wantToCook, setWantToCook] = useState([]);
 
   const handleWantToCook = recipe =>{
-    const newWantToCook = [...wantToCook, recipe];
-    setWantToCook(newWantToCook);
-  }
+    const isAlreadyAdded = wantToCook.find(item => item.recipe_name === recipe.recipe_name);
 
+    if (!isAlreadyAdded) {
+      const newWantToCook = [...wantToCook, recipe];
+      setWantToCook(newWantToCook);
+  }
+}
   return (
     <>
     <Header></Header>
