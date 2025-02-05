@@ -6,15 +6,14 @@ const Want_to_cook = ({wantToCook}) => {
             <div className="card-body">
                 <h2 className="card-title text-black flex justify-center pb-3 text-3xl border-b border-gray-200 mx-10">Want to cook: {wantToCook.length}</h2>
                 
-                <div className="grid grid-cols-4 text-gray-500 font-semibold pb-3 font-fira">
+                <div className="grid grid-cols-4 text-gray-500 font-semibold font-fira">
                     <p>Name</p>
                     <p>Time</p>
                     <p>Calories</p>
                 </div>
                 </div>
-                
                 {wantToCook.map((recipe, index) => (
-                    <div key={index} className="grid grid-cols-4 text-gray-500 py-2 items-center gap-4 bg-gray-100 px-4">
+                    <div key={index} className="grid grid-cols-4 text-gray-500 py-2 items-center gap-4 bg-gray-100 px-7">
                         <p>
                               {recipe.recipe_name}
                         </p>
@@ -28,7 +27,6 @@ const Want_to_cook = ({wantToCook}) => {
                 ))}
             </div>
 
-               
         </div>
     );
 };
