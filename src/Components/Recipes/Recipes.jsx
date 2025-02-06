@@ -15,7 +15,7 @@ const Recipes = ({handleWantToCook, wantToCook}) => {
 
     return (
         <div className="md:w-2/3">
-            <div className="grid grid-cols-2 gap-5 my-8">
+            <div className="grid grid-cols-2 gap-5 my-">
                 {
                     recipes.map(recipe=>
                         <Recipe 
