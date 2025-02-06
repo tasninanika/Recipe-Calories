@@ -5,7 +5,11 @@ const Want_to_cook = ({wantToCook}) => {
 
     const [cooking, setCooking] = useState([]);
 
-    
+    const handleCurrentlyCooking = cook =>{
+        console.log("added");
+        const newCurrentkyCooking = [...cooking, cook];
+        setCooking(newCurrentkyCooking);
+    }
 
     return (
         <div className="md:w-1/3 my-8">
@@ -26,7 +30,8 @@ const Want_to_cook = ({wantToCook}) => {
                         <p>{recipe.preparing_time}</p>
                         <p>{recipe.calories}</p>
                         
-                        <button className="btn rounded-4xl text-black bg-[#0BE58A] text-xs border-none py-[2px] px-[18px]">
+                        <button className="btn rounded-4xl text-black bg-[#0BE58A] text-xs border-none py-[2px] px-[18px]" onClick={handleCurrentlyCooking}> 
+                            
                             Preparing
                         </button>
                     </div>
