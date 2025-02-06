@@ -2,14 +2,13 @@ import PropTypes from 'prop-types';
 import { useState } from 'react';
 import Cooking from '../Cooking/Cooking';
 
-const Want_to_cook = ({wantToCook}) => {
+const Want_to_cook = ({wantToCook, handleRemoveRecipe}) => {
 
     const [cooking, setCooking] = useState([]);
 
     const handleCurrentlyCooking = recipe =>{
-        console.log(recipe);
-        const newCurrentkyCooking = [...cooking, recipe];
-        setCooking(newCurrentkyCooking);
+        handleRemoveRecipe(recipe);
+        setCooking(prevCooking => [...prevCooking, recipe]);
     }
 
     
@@ -74,7 +73,8 @@ const Want_to_cook = ({wantToCook}) => {
 };
 
 Want_to_cook.propTypes = {
-    wantToCook: PropTypes.array.isRequired
+    wantToCook: PropTypes.array.isRequired,
+    handleRemoveRecipe: PropTypes.func
     
 }
 
