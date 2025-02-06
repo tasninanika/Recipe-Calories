@@ -5,15 +5,21 @@ import Cooking from '../Cooking/Cooking';
 const Want_to_cook = ({wantToCook}) => {
 
     const [cooking, setCooking] = useState([]);
+    // const [updatedWantToCook, setUpdatedWantToCook] = useState(wantToCook);
 
-    const handleCurrentlyCooking = cook =>{
-        const newCurrentkyCooking = [...cooking, cook];
+    const handleCurrentlyCooking = recipe =>{
+        console.log(recipe);
+        const newCurrentkyCooking = [...cooking, recipe];
         setCooking(newCurrentkyCooking);
     }
+
+    // const updatedList = updatedWantToCook.filter((item) => item.recipe_id !== recipe.recipe_id);
+    // setUpdatedWantToCook(updatedList);
 
     const totalTime = cooking.reduce((sum, cook) => sum + parseInt(cook.preparing_time), 0);
     const totalCalories = cooking.reduce((sum, cook) => sum + parseInt(cook.calories), 0);
 
+    
 
     return (
         <div className="md:w-1/3 my-8">
@@ -47,8 +53,8 @@ const Want_to_cook = ({wantToCook}) => {
                     <div className="grid grid-cols-4 text-gray-500 font-semibold font-fira py-2 items-center px-7">
                         <p className='w-1'></p>
                         <p className="text-left">Name</p>  
-                        <p className="text-center">Time</p>  
-                        <p className="text-center">Calories</p>  
+                        <p className="text-left">Time</p>  
+                        <p className="text-left">Calories</p>  
                     </div>
                 </div>
                 <div className="mb-2">               
@@ -57,7 +63,7 @@ const Want_to_cook = ({wantToCook}) => {
                     }
                 </div>
                 {cooking.length > 0 && (
-                    <div className="grid grid-cols-4 px-6 items-center font-semibold text-gray-500 py-2 mt-2 gap-6">
+                    <div className="grid grid-cols-4 px-6 items-center font-semibold text-gray-500 py-2 mt-2 gap-2">
                         <p></p>  
                         <p className=""></p>
                         <p className="text-left">Total Time = {totalTime} minutes</p>

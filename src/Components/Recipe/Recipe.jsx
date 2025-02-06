@@ -5,7 +5,6 @@ import { TbFlame } from "react-icons/tb";
 
 
 const Recipe = ({recipe, handleWantToCook, wantToCook}) => {
-    console.log(recipe);
 
     const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = recipe;
 
