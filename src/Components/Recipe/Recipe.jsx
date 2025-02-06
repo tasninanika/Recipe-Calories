@@ -39,7 +39,7 @@ const Recipe = ({recipe, handleWantToCook, wantToCook}) => {
                     <button 
                         className={`btn rounded-full text-black px-[20px] text-lg py-[15px] border-none ${
                             wantToCook.find(item => item.recipe_name === recipe.recipe_name) 
-                            ? "bg-gray-400 cursor-not-allowed" 
+                            ? "bg-gray-400 btn-disabled" 
                             : "bg-[#0BE58A]"
                         }`} 
                         onClick={() => handleWantToCook(recipe)}
