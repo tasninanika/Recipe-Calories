@@ -1,6 +1,12 @@
 import PropTypes from 'prop-types';
+import { useState } from 'react';
 
 const Want_to_cook = ({wantToCook}) => {
+
+    const [cooking, setCooking] = useState([]);
+
+    
+
     return (
         <div className="md:w-1/3 my-8">
             <div className="card rounded-xl border border-gray-300 bg-white text-primary-content w-full">
