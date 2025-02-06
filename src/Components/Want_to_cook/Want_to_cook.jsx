@@ -31,7 +31,7 @@ const Want_to_cook = ({wantToCook}) => {
                         <p>{recipe.preparing_time}</p>
                         <p>{recipe.calories}</p>
                         
-                        <button className="btn rounded-4xl text-black bg-[#0BE58A] text-xs border-none py-[2px] px-[18px]" onClick={handleCurrentlyCooking}> 
+                        <button className="btn rounded-4xl text-black bg-[#0BE58A] text-xs border-none py-[2px] px-[18px]" onClick={()=>handleCurrentlyCooking(recipe)}> 
                             
                             Preparing
                         </button>
@@ -39,7 +39,7 @@ const Want_to_cook = ({wantToCook}) => {
                 ))}
 
                 {/* cooking */}
-                <h2 className="card-title text-black flex justify-center pb-3 text-3xl border-b border-gray-200 mx-10">Want to cook: {wantToCook.length}</h2>
+                <h2 className="card-title text-black flex justify-center pb-3 text-3xl border-b border-gray-200 mx-10">Currently cooking: {cooking.length}</h2>
                 
                 <div className="grid grid-cols-4 text-gray-500 font-semibold font-fira -mb-3">
                     <p>Name</p>
