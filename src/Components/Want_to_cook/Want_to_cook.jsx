@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 const Want_to_cook = ({wantToCook}) => {
     return (
@@ -15,9 +16,7 @@ const Want_to_cook = ({wantToCook}) => {
                 <div className="mb-2">
                 {wantToCook.map((recipe, index) => (
                     <div key={index} className="grid grid-cols-4 text-gray-500 py-2 items-center gap-4 bg-gray-50 px-7">
-                        <p>
-                              {recipe.recipe_name}
-                        </p>
+                        <p>{recipe.recipe_name}</p>
                         <p>{recipe.preparing_time}</p>
                         <p>{recipe.calories}</p>
                         
@@ -32,5 +31,10 @@ const Want_to_cook = ({wantToCook}) => {
         </div>
     );
 };
+
+Want_to_cook.propTypes = {
+    wantToCook: PropTypes.array.isRequired
+    
+}
 
 export default Want_to_cook;
