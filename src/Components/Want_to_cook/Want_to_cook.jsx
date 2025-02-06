@@ -5,7 +5,6 @@ import Cooking from '../Cooking/Cooking';
 const Want_to_cook = ({wantToCook}) => {
 
     const [cooking, setCooking] = useState([]);
-    // const [updatedWantToCook, setUpdatedWantToCook] = useState(wantToCook);
 
     const handleCurrentlyCooking = recipe =>{
         console.log(recipe);
@@ -13,8 +12,7 @@ const Want_to_cook = ({wantToCook}) => {
         setCooking(newCurrentkyCooking);
     }
 
-    // const updatedList = updatedWantToCook.filter((item) => item.recipe_id !== recipe.recipe_id);
-    // setUpdatedWantToCook(updatedList);
+    
 
     const totalTime = cooking.reduce((sum, cook) => sum + parseInt(cook.preparing_time), 0);
     const totalCalories = cooking.reduce((sum, cook) => sum + parseInt(cook.calories), 0);

@@ -8,6 +8,7 @@ import Want_to_cook from "./Components/Want_to_cook/Want_to_cook"
 function App() {
 
   const [wantToCook, setWantToCook] = useState([]);
+  const [updatedWantToCook, setUpdatedWantToCook] = useState(wantToCook);
 
   const handleWantToCook = recipe =>{
     const isAlreadyAdded = wantToCook.find(item => item.recipe_name === recipe.recipe_name);
@@ -16,6 +17,9 @@ function App() {
       const newWantToCook = [...wantToCook, recipe];
       setWantToCook(newWantToCook);
   }
+
+  const updatedList = updatedWantToCook.filter((item) => item.recipe_id !== recipe.recipe_id);
+  setUpdatedWantToCook(updatedList);
 }
   return (
     <>
