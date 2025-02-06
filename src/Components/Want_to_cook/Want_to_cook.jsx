@@ -48,19 +48,10 @@ const Want_to_cook = ({wantToCook}) => {
                 </div>
                 </div>
                 <div className="mb-2">
-                {wantToCook.map((recipe, index) => (
-                    <div key={index} className="grid grid-cols-4 text-gray-500 py-2 items-center gap-4 bg-gray-50 px-7">
-                        <p>{recipe.recipe_name}</p>
-                        <p>{recipe.preparing_time}</p>
-                        <p>{recipe.calories}</p>
-                        
-                        <button className="btn rounded-4xl text-black bg-[#0BE58A] text-xs border-none py-[2px] px-[18px]" onClick={handleCurrentlyCooking}> 
-                            
-                            Preparing
-                        </button>
-                    </div>
-                ))}
-
+                
+                {
+                cooking.map((cook,idx) => <Cooking key={idx} cook={cook}></Cooking>)
+            }
 
                 </div>
                 
