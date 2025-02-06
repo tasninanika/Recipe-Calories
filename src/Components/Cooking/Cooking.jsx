@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 const Cooking = ({ cook, index }) => {
 
@@ -13,5 +14,11 @@ const Cooking = ({ cook, index }) => {
 
     );
 };
+
+Cooking.propTypes = {
+    cook: PropTypes.object.isRequired,
+    index: PropTypes.array.isRequired
+    
+}
 
 export default Cooking;
