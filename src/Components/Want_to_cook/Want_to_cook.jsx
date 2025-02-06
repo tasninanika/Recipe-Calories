@@ -7,7 +7,6 @@ const Want_to_cook = ({wantToCook}) => {
     const [cooking, setCooking] = useState([]);
 
     const handleCurrentlyCooking = cook =>{
-        console.log("added");
         const newCurrentkyCooking = [...cooking, cook];
         setCooking(newCurrentkyCooking);
     }
@@ -16,9 +15,9 @@ const Want_to_cook = ({wantToCook}) => {
         <div className="md:w-1/3 my-8">
             <div className="card rounded-xl border border-gray-300 bg-white text-primary-content w-full">
             <div className="card-body">
-                <h2 className="card-title text-black flex justify-center pb-3 text-3xl border-b border-gray-200 mx-10">Want to cook: {wantToCook.length}</h2>
+                <h2 className="card-title text-black flex justify-center pb-3 mb-4 text-3xl border-b border-gray-200 mx-10">Want to cook: {wantToCook.length}</h2>
                 
-                <div className="grid grid-cols-4 text-gray-500 font-semibold font-fira -mb-3">
+                <div className="grid grid-cols-4 text-gray-500 font-semibold font-fira -mb-4">
                     <p>Name</p>
                     <p>Time</p>
                     <p>Calories</p>
@@ -39,9 +38,9 @@ const Want_to_cook = ({wantToCook}) => {
                 ))}
 
                 {/* cooking */}
-                <h2 className="card-title text-black flex justify-center pb-3 text-3xl border-b border-gray-200 mx-10">Currently cooking: {cooking.length}</h2>
+                <h2 className="card-title text-black flex justify-center pb-3 text-3xl border-b border-gray-200 mx-10 mt-8 mb-4">Currently cooking: {cooking.length}</h2>
                 
-                <div className="grid grid-cols-4 text-gray-500 font-semibold font-fira -mb-3">
+                <div className="grid grid-cols-3 text-gray-500 font-semibold font-fira items-center text-center">
                     <p>Name</p>
                     <p>Time</p>
                     <p>Calories</p>
