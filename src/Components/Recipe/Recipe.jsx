@@ -37,8 +37,18 @@ const Recipe = ({recipe, handleWantToCook, wantToCook}) => {
                     </div>
 
                     <div className="card-actions mt-auto">
-                        <button className="btn rounded-full text-black bg-[#0BE58A] border-none px-[20px] text-lg py-[15px]" onClick={()=>handleWantToCook(recipe)} 
-                            >Want to cook</button>
+                    <button 
+                        className={`btn rounded-full text-black px-[20px] text-lg py-[15px] border-none ${
+                            wantToCook.find(item => item.recipe_name === recipe.recipe_name) 
+                            ? "bg-gray-400 cursor-not-allowed" 
+                            : "bg-[#0BE58A]"
+                        }`} 
+                        onClick={() => handleWantToCook(recipe)}
+                        disabled={wantToCook.find(item => item.recipe_name === recipe.recipe_name)}
+                        >
+                        Want to Cook
+                        </button>
+
                     </div>
                 </div>
             </div>
@@ -48,7 +58,9 @@ const Recipe = ({recipe, handleWantToCook, wantToCook}) => {
 };
 
 Recipe.propTypes = {
-    recipe: PropTypes.object.isRequired
+    recipe: PropTypes.object.isRequired,
+    handleWantToCook: PropTypes.func,
+    wantToCook: PropTypes.array.isRequired
     
 }
 
