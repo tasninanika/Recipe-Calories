@@ -40,7 +40,7 @@
 
 ## 📸 Preview
 
-![Recipe Calories Preview](images/preview.png)
+![Recipe Calories Preview](recipe-preview.PNG)
 
 ---
 
